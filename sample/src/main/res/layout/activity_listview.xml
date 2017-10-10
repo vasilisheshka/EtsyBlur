@@ -25,8 +25,8 @@
             android:layout_width="match_parent"
             android:layout_height="200dp"
             android:layout_gravity="center"
-            app:overlayColor="@color/bg_glass"
-            app:debug="true"/>
+            app:etsy_overlayColor="@color/bg_glass"
+            app:etsy_debug="true"/>
     </FrameLayout>
 
 </LinearLayout>

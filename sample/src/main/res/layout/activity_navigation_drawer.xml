@@ -20,7 +20,7 @@
         android:id="@id/etsy_blurring_view"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        app:debug="true">
+        app:etsy_debug="true">
     </com.ms_square.etsyblur.BlurringView>
 
     <!-- android:layout_gravity="start" tells DrawerLayout to treat
