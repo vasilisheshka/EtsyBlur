@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <declare-styleable name="BlurringView">
-        <attr name="radius" format="integer"/>
-        <attr name="downScaleFactor" format="integer"/>
-        <attr name="overlayColor" format="color"/>
-        <attr name="allowFallback" format="boolean"/>
-        <attr name="debug" format="boolean"/>
+        <attr name="etsy_radius" format="integer"/>
+        <attr name="etsy_downScaleFactor" format="integer"/>
+        <attr name="etsy_overlayColor" format="color"/>
+        <attr name="etsy_allowFallback" format="boolean"/>
+        <attr name="etsy_debug" format="boolean"/>
     </declare-styleable>
 </resources>

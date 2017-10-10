@@ -30,7 +30,7 @@ public class RecyclerViewActivity extends AppCompatActivity {
         recyclerView.addItemDecoration(new DividerItemDecoration(this, DividerItemDecoration.VERTICAL));
         recyclerView.setAdapter(new ListItemRecyclerViewAdapter(ListItemDataProvider.generateSample(this, 5)));
 
-        blurringView = (BlurringView) findViewById(R.id.blurring_view);
+        blurringView = (BlurringView) findViewById(R.id.etsy_blurring_view);
         blurringView.blurredView(recyclerView);
     }
 }

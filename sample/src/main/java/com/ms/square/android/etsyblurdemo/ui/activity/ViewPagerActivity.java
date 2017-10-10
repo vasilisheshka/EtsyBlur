@@ -40,7 +40,7 @@ public class ViewPagerActivity extends AppCompatActivity {
         indicator = (ViewPagerIndicator) findViewById(R.id.indicator);
         indicator.setPageCount(PAGE_COUNT);
 
-        blurringView = (BlurringView) findViewById(R.id.blurring_view);
+        blurringView = (BlurringView) findViewById(R.id.etsy_blurring_view);
         blurringView.blurredView(pager);
 
         pager.addOnPageChangeListener(new ViewPager.SimpleOnPageChangeListener() {

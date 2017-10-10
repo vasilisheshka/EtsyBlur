@@ -29,7 +29,7 @@ public class ListViewActivity extends AppCompatActivity {
         ListAdapter adapter = new ListItemArrayAdapter(this, 0, ListItemDataProvider.generateSample(this, 5));
         listView.setAdapter(adapter);
 
-        blurringView = (BlurringView) findViewById(R.id.blurring_view);
+        blurringView = (BlurringView) findViewById(R.id.etsy_blurring_view);
         blurringView.blurredView(listView);
     }
 }

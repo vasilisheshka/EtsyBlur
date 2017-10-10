@@ -70,11 +70,11 @@ public class BlurringView extends View {
         super(context, attrs, defStyleAttr);
 
         TypedArray typedArray = getContext().obtainStyledAttributes(attrs, R.styleable.BlurringView);
-        int overlayColor = typedArray.getInt(R.styleable.BlurringView_overlayColor, BlurConfig.DEFAULT_OVERLAY_COLOR);
-        int blurRadius = typedArray.getInt(R.styleable.BlurringView_radius, BlurConfig.DEFAULT_RADIUS);
-        int downScaleFactor = typedArray.getInt(R.styleable.BlurringView_downScaleFactor, BlurConfig.DEFAULT_DOWN_SCALE_FACTOR);
-        boolean allowFallback = typedArray.getBoolean(R.styleable.BlurringView_allowFallback, BlurConfig.DEFAULT_ALLOW_FALLBACK);
-        boolean debug = typedArray.getBoolean(R.styleable.BlurringView_debug, BlurConfig.DEFAULT_DEBUG);
+        int overlayColor = typedArray.getInt(R.styleable.BlurringView_etsy_overlayColor, BlurConfig.DEFAULT_OVERLAY_COLOR);
+        int blurRadius = typedArray.getInt(R.styleable.BlurringView_etsy_radius, BlurConfig.DEFAULT_RADIUS);
+        int downScaleFactor = typedArray.getInt(R.styleable.BlurringView_etsy_downScaleFactor, BlurConfig.DEFAULT_DOWN_SCALE_FACTOR);
+        boolean allowFallback = typedArray.getBoolean(R.styleable.BlurringView_etsy_allowFallback, BlurConfig.DEFAULT_ALLOW_FALLBACK);
+        boolean debug = typedArray.getBoolean(R.styleable.BlurringView_etsy_debug, BlurConfig.DEFAULT_DEBUG);
         typedArray.recycle();
 
         blurConfig = new BlurConfig.Builder()

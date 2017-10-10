@@ -17,7 +17,7 @@
 
     <!-- needed w/this id for EtsyBlur Lib to work -->
     <com.ms_square.etsyblur.BlurringView
-        android:id="@id/blurring_view"
+        android:id="@id/etsy_blurring_view"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         app:debug="true">

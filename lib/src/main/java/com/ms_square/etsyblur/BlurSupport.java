@@ -14,7 +14,7 @@ public class BlurSupport {
 
     public static void addTo(@NonNull final DrawerLayout drawerLayout) {
         View viewToBlur = drawerLayout.getChildAt(0);
-        final View blurringView = drawerLayout.findViewById(R.id.blurring_view);
+        final View blurringView = drawerLayout.findViewById(R.id.etsy_blurring_view);
 
         if (viewToBlur == null) {
             throw new IllegalStateException("There's no view to blur. DrawerLayout does not have the first child view.");

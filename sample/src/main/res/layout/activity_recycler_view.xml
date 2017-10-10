@@ -23,7 +23,7 @@
             app:layoutManager="android.support.v7.widget.LinearLayoutManager">
         </android.support.v7.widget.RecyclerView>
         <com.ms_square.etsyblur.BlurringView
-            android:id="@id/blurring_view"
+            android:id="@id/etsy_blurring_view"
             android:layout_width="match_parent"
             android:layout_height="200dp"
             android:layout_gravity="center"
