@@ -63,16 +63,6 @@ public abstract class BlurDialogFragment extends DialogFragment {
         super.onViewCreated(view, savedInstanceState);
         // will be only called if onCreateView returns non-null view
         // set to dismiss when touched outside content view
-        if (view != null) {
-            view.setOnTouchListener(new View.OnTouchListener() {
-                @Override
-                public boolean onTouch(View v, MotionEvent event) {
-                    v.setOnTouchListener(null);
-                    dismiss();
-                    return true;
-                }
-            });
-        }
     }
 
     @Override
